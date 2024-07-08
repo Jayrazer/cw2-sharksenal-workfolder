@@ -149,5 +149,5 @@ $sequence "reload_empty" {
 	"anims\reload_empty.smd"
 	fadein 0.1
 	fadeout 0.3
-	fps 28
+	fps 27
 }
