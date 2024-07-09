@@ -1,46 +1,9 @@
-$modelname "weapons\cw2_shark\v_akm.mdl"
+$modelname "weapons/cw2_shark/attachments/v_ak_opticrail.mdl"
 
 $bodygroup "reciever"
 {
-	studio "v_akm.smd"
+	studio "v_ak_opticrail.smd"
 }
-
-$bodygroup "magazine"
-{
-	studio "v_akm_mag30_new.smd"
-	studio "v_akm_mag40.smd"
-	blank
-}
-
-$bodygroup "foregrip"
-{
-	studio "v_forgrip_standard.smd"
-	studio "v_forgrip_dong.smd"
-	blank
-}
-
-$bodygroup "barrel"
-{
-	studio "v_barrel_std.smd"
-	studio "v_barrel_krink.smd"
-	studio "v_barrel_rpk.smd"
-	blank
-}
-
-$bodygroup "stock"
-{
-	studio "v_stock_std.smd"
-	studio "v_stock_fold.smd"
-	studio "v_stock_rpk.smd"
-	studio "v_stock_gone.smd"
-	blank
-}
-
-//$bodygroup "opticrail"
-//{
-	//blank
-	//studio "v_ak_opticrail.smd"
-//}
 
 $surfaceprop "weapon"
 
