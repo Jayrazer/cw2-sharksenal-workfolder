@@ -7,8 +7,8 @@ $bodygroup "reciever"
 
 $bodygroup "toprail"
 {
-	studio "p90_scope.smd"
 	studio "p90_toprail.smd"
+	studio "p90_scope.smd"
 	blank
 }
 
@@ -27,8 +27,8 @@ $illumposition 0 0 0
 $cdmaterials "models/weapons/cw2_shark/p90/"
 $cdmaterials "cw2\attachments\lens\"
 
-$attachment "1" "p90_root" -0.30 3.0 16.00 rotate -90 0 0
-$attachment "2" "p90_root" -1.40 4.0 4.50 rotate 0 -180 180
+$attachment "1" "p90_root" 0 1.80 9.00 rotate -90 0 0
+$attachment "2" "p90_root" 0 -1.00 -5 rotate -0 -90 -180
 //$attachment "3" "camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
