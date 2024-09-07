@@ -128,13 +128,13 @@ $sequence "draw" {
 $sequence "reload" {
 	"anims\reload.smd"
 	fadein 0.1
-	fadeout 0.3
-	fps 32
+	fadeout 0.1
+	fps 35
 }
 
 $sequence "reload_empty" {
 	"anims\reload_empty.smd"
 	fadein 0.1
-	fadeout 0.3
-	fps 32
+	fadeout 0.1
+	fps 35
 }
