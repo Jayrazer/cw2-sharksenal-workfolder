@@ -138,3 +138,13 @@ $sequence "reload_empty" {
 	fadeout 0.1
 	fps 35
 }
+
+$collisionmodel "p90_gun.smd"
+{
+	$mass 25
+	$inertia 1
+	$damping 0.5
+	$rotdamping 2.5
+	$rootbone " "
+
+}
