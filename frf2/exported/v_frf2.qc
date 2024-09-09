@@ -26,8 +26,8 @@ $illumposition 0 0 0
 $cdmaterials "models/weapons/cw2_shark/frf2/"
 $cdmaterials "cw2/attachments/lens/"
 
-$attachment "1" "frf2_root" 0 1.80 9.00 rotate -90 0 0
-$attachment "2" "frf2_root" 0 -1.00 -5 rotate -0 -90 -180
+$attachment "1" "frf2_root" 0.00 3.50 35.00 rotate -90 0 0
+$attachment "2" "frf2_root" 0.00 3.9 5.0 rotate -180 0 0
 //$attachment "3" "camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
