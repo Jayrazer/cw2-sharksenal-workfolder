@@ -21,8 +21,8 @@ $illumposition 0 0 0
 $cdmaterials "models/weapons/cw2_shark/ameli/"
 $cdmaterials "cw2\attachments\lens\"
 
-$attachment "1" "ameli_attach_muzzle" -0.50 0.00 0.00 rotate -90 0 0
-$attachment "2" "ameli_attach_eject" 0 0 0 rotate 180 45 0
+$attachment "1" "ameli_root" 0.0 2.60 28.50 rotate -90 0 0
+$attachment "2" "ameli_root" 0.00 1.00 5.50 rotate -0 -105 180
 //$attachment "3" "camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
@@ -80,8 +80,8 @@ $sequence "idle" {
 	fps 30
 }
 
-$sequence "fire" {
-	"anims\fire.smd"
+$sequence "fire_1" {
+	"anims\fire_1.smd"
 	fadein 0.03
 	fadeout 0.03
 	snap
@@ -104,12 +104,12 @@ $sequence "fire_aim" {
 	fps 30
 }
 
-//$sequence "draw" {
-	//"anims\draw.smd"
-	//fadein 0.1
-	//fadeout 0.3
-	//fps 30
-//}
+$sequence "draw" {
+	"anims\draw.smd"
+	fadein 0.1
+	fadeout 0.3
+	fps 30
+}
 
 $sequence "reload" {
 	"anims\reload.smd"
