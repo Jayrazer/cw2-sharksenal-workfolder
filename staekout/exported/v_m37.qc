@@ -156,11 +156,12 @@ $sequence "reload_start" {
 	fps 27
 }
 
-$sequence "reload_start_empty" {
-	"anims\reload_start_empty_new_test.smd"
+$sequence "reload_end_empty" {
+	"anims\reload_end_empty.smd"
 	fadein 0.2
 	fadeout 0.1
 	fps 27
+	snap
 }
 
 $sequence "reload_insert" {
