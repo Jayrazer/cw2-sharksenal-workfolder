@@ -21,8 +21,8 @@ $bodygroup "stock"
 
 $bodygroup "rail"
 {
-	studio "rk62_rail.smd"
 	blank
+	studio "rk62_rail.smd"
 }
 
 $surfaceprop "weapon"

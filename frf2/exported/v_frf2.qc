@@ -121,13 +121,3 @@ $sequence "reload_empty" {
 	fadeout 0.1
 	fps 30
 }
-
-$collisionmodel "frf2_main.smd"
-{
-	$mass 50
-	$inertia 1
-	$damping 0.5
-	$rotdamping 2.5
-	$rootbone " "
-
-}
