@@ -8,7 +8,23 @@ $bodygroup "reciever"
 $bodygroup "barrel"
 {
 	studio "v_m37_barrel_std.smd"
+	studio "v_m37_barrel_trench.smd"
 	studio "v_m37_barrel_short.smd"
+	blank
+}
+
+$bodygroup "magtube"
+{
+	studio "v_m37_magtube_std.smd"
+	studio "v_m37_magtube_med.smd"
+	studio "v_m37_magtube_short.smd"
+	blank
+}
+
+$bodygroup "stock"
+{
+	studio "v_m37_pistolgrip.smd"
+	studio "v_m37_fullstock.smd"
 	blank
 }
 
@@ -125,8 +141,24 @@ $sequence "idle" {
 	fps 30
 }
 
+$sequence "idle_stock" {
+	"anims\idle_stock.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
 $sequence "shoot_1" {
 	"anims\shoot_1.smd"
+	fadein 0.03
+	fadeout 0.03
+	snap
+	fps 30
+}
+
+$sequence "shoot_1_stock" {
+	"anims\shoot_1_stock.smd"
 	fadein 0.03
 	fadeout 0.03
 	snap
@@ -141,8 +173,24 @@ $sequence "shoot_2" {
 	fps 30
 }
 
+$sequence "shoot_2_stock" {
+	"anims\shoot_2_stock.smd"
+	fadein 0.03
+	fadeout 0.03
+	snap
+	fps 30
+}
+
 $sequence "shoot_aim" {
 	"anims\shoot_aim.smd"
+	fadein 0.03
+	fadeout 0.03
+	snap
+	fps 30
+}
+
+$sequence "shoot_aim_stock" {
+	"anims\shoot_aim_stock.smd"
 	fadein 0.03
 	fadeout 0.03
 	snap
@@ -156,8 +204,23 @@ $sequence "reload_start" {
 	fps 27
 }
 
+$sequence "reload_start_stock" {
+	"anims\reload_start_stock.smd"
+	fadein 0.2
+	fadeout 0.1
+	fps 27
+}
+
 $sequence "reload_end_empty" {
 	"anims\reload_end_empty.smd"
+	fadein 0.2
+	fadeout 0.1
+	fps 27
+	snap
+}
+
+$sequence "reload_end_empty_stock" {
+	"anims\reload_end_empty_stock.smd"
 	fadein 0.2
 	fadeout 0.1
 	fps 27
@@ -180,8 +243,23 @@ $sequence "reload_end" {
 	snap
 }
 
+$sequence "reload_end_stock" {
+	"anims\reload_end_stock.smd"
+	fadein 0.1
+	fadeout 0.2
+	fps 24
+	snap
+}
+
 $sequence "draw" {
 	"anims\draw.smd"
+	fadein 0.1
+	fadeout 0.3
+	fps 30
+}
+
+$sequence "draw_stock" {
+	"anims\draw_stock.smd"
 	fadein 0.1
 	fadeout 0.3
 	fps 30

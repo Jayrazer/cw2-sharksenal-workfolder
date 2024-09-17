@@ -25,6 +25,12 @@ $bodygroup "rail"
 	studio "rk62_rail.smd"
 }
 
+$bodygroup "boolet"
+{
+	studio "rk62_bullets.smd"
+	blank
+}
+
 $surfaceprop "weapon"
 
 $contents "solid"
