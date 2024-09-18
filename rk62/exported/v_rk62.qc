@@ -15,6 +15,7 @@ $bodygroup "handguard"
 $bodygroup "stock"
 {
 	studio "rk62_stock_m2.smd"
+	studio "rk62_stock_m2_folded.smd"
 	studio "rk62_stock_og.smd"
 	blank
 }
@@ -25,9 +26,17 @@ $bodygroup "rail"
 	studio "rk62_rail.smd"
 }
 
-$bodygroup "boolet"
+$bodygroup "barrel"
 {
-	studio "rk62_bullets.smd"
+	studio "rk62_barrel_std.smd"
+	studio "rk62_barrel_short.smd"
+	blank
+}
+
+$bodygroup "magazine"
+{
+	studio "rk62_mag_std.smd"
+	studio "rk62_mag_steel.smd"
 	blank
 }
 
