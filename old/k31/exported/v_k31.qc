@@ -206,6 +206,6 @@ $sequence "draw" {
 	"anims\draw.smd"
 	fadein 0.1
 	fadeout 0.3
-	fps 30
+	fps 20
 }
 
