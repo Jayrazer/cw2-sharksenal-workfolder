@@ -1,43 +1,29 @@
-$modelname "weapons\cw2_sharksenal\v_rk62.mdl"
+$modelname "weapons\cw2_sharksenal\v_rk95.mdl"
 
-$bodygroup "reciever"
+$bodygroup "reciever" // 0
 {
-	studio "rk62_main.smd"
+	studio "rk95_main.smd"
 }
 
-$bodygroup "handguard"
+$bodygroup "stock" // 1 
 {
-	studio "rk62_barrel_m2.smd"
-	studio "rk62_barrel_og.smd"
-	blank
+	studio "rk95_stock_fold.smd" // 0
+	studio "rk95_stock_fold_in.smd" // 1
+	studio "rk95_stock_wood.smd" // 2
+	blank // 3
 }
 
-$bodygroup "stock"
+$bodygroup "rail" // 2
 {
-	studio "rk62_stock_m2.smd"
-	studio "rk62_stock_m2_folded.smd"
-	studio "rk62_stock_og.smd"
-	blank
+	blank // 0
+	studio "rk95_rail.smd" // 1
 }
 
-$bodygroup "rail"
+$bodygroup "magazine" // 3
 {
-	blank
-	studio "rk62_rail.smd"
-}
-
-$bodygroup "barrel"
-{
-	studio "rk62_barrel_std.smd"
-	studio "rk62_barrel_short.smd"
-	blank
-}
-
-$bodygroup "magazine"
-{
-	studio "rk62_mag_std.smd"
-	studio "rk62_mag_steel.smd"
-	blank
+	studio "rk95_mag_poly.smd" // 0
+	studio "rk62_mag_steel.smd" // 1
+	blank // 2
 }
 
 $surfaceprop "weapon"
@@ -46,7 +32,7 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models/weapons/cw2_shark/rk62/"
+$cdmaterials "models/weapons/cw2_shark/rk95/"
 $cdmaterials "cw2\attachments\lens\"
 
 $attachment "1" "rk62_attach_muzzle" 0 0 0 rotate -90 0 0
@@ -161,12 +147,12 @@ $sequence "reload_empty" {
 	fps 30
 }
 
-//$collisionmodel "rk62_main.smd"
-//{
-	//$mass 25
-	//$inertia 1
-	//$damping 0.5
-	//$rotdamping 2.5
-	//$rootbone " "
+$collisionmodel "rk95_main.smd"
+{
+	$mass 25
+	$inertia 1
+	$damping 0.5
+	$rotdamping 2.5
+	$rootbone " "
 
-//}
+}
